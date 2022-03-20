@@ -26,11 +26,11 @@ The skeleton format that has been chosen to build these scripts is compatible wi
   - `eye`, `eye_end`, `eyelid`, `eyelid_end`, `eyebrow`, `mouth`
   - `shoulder`, `upperarm`, `upperarm_twist`, `lowerarm`, `lowerarm_twist`
   - `upperleg`, `upperleg_twist`, `lowerleg`, `lowerleg_twist`, `foot`, `ball`, `foot_end`
-  - `thumb_01`, `thumb_02`, `thumb_03`
-  - `index_01`, `index_02`, `index_03`
-  - `middle_01`, `middle_02`, `middle_03`
-  - `ring_01`, `ring_02`, `ring_03`,
-  - `pinky_01`, `pinky_02`, `pinky_03`
+  - `thumb_01`, `thumb_02`, `thumb_03`, `thumb_end`
+  - `index_01`, `index_02`, `index_03`, `index_end`
+  - `middle_01`, `middle_02`, `middle_03`, `middle_end`
+  - `ring_01`, `ring_02`, `ring_03`, `ring_end`
+  - `pinky_01`, `pinky_02`, `pinky_03`, `pinky_end`
 
 In the case any of these does not match on the two skeletons at the same time, they will be ignored.
 
