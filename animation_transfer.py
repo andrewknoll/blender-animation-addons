@@ -1,11 +1,10 @@
 bl_info = {
     "name": "Animation Transfer",
-    "description": "Takes the animation data from a model to another.",
+    "description": "Takes the animation data from a model to another. Rotations have to be in the LOCAL POSE BONE reference.",
     "author": "Andres Otero Garcia",
     "version": (1, 1),
     "blender": (2, 93, 0),
     "location": "View3D > Object > Animation",
-    "wiki_url": "",
     "category": "Animation"}
 
 import json
@@ -33,8 +32,8 @@ bone_names = ["root", "hip", "spine_01", "spine_02", "spine_03", \
   "shoulder_r", "upperarm_r", "upperarm_twist_r", "lowerarm_r", "lowerarm_twist_r", "hand_r", \
   "shoulder_l", "upperarm_l", "upperarm_twist_l", "lowerarm_l", "lowerarm_twist_l", "hand_l", \
   
-  "upperleg_r", "upperlef_twist_r", "lowerleg_r", "lowerleg_twist_r", "foot_r", "ball_r", "foot_end_r" \
-  "upperleg_l", "upperlef_twist_l", "lowerleg_l", "lowerleg_twist_l", "foot_l", "ball_l", "foot_end_l"]
+  "upperleg_r", "upperleg_twist_r", "lowerleg_r", "lowerleg_twist_r", "foot_r", "ball_r", "foot_end_r" \
+  "upperleg_l", "upperleg_twist_l", "lowerleg_l", "lowerleg_twist_l", "foot_l", "ball_l", "foot_end_l"]
 
 finger_names = ["thumb", "index", "middle", "ring", "pinky"]
 finger_part_names = ["_01_r", "_01_l", "_02_r", "_02_l", "_03_r", "_03_l", "_end_r", "_end_l"]
@@ -699,5 +698,4 @@ def unregister():
 
 
 if __name__ == "__main__":
-  a = """Rotations have to be in the LOCAL POSE BONE reference"""
   register()
