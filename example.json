@@ -1,0 +1,994 @@
+{
+    "relations": [
+        {
+            "origin": "hip",
+            "target": "Hips",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": {
+                "name" : "spine",
+                "suffixes": ["_01", "_02", "_03"]
+            },
+            "target": {
+                "name" : "Spine",
+                "suffixes": ["", "1", "2"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "neck",
+            "target": "Neck",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "head",
+            "target": "Head",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "head_end",
+            "target": "HeadTop_End",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": -1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        
+        {
+            "origin": "shoulder_l",
+            "target": "LeftShoulder",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -0.4363,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                }
+            ]
+        },
+        
+        {
+            "origin": "upperarm_l",
+            "target": "LeftArm",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "lowerarm_l",
+            "target": "LeftForeArm",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "upperleg_l",
+            "target": "LeftUpLeg",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "lowerleg_l",
+            "target": "LeftLeg",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "foot_l",
+            "target": "LeftFoot",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0.5235,
+                            "pitch": 0,
+                            "yaw": 3.14
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "foot_end_l",
+            "target": "LeftToe_End",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "ball_l",
+            "target": "LeftToeBase",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "shoulder_r",
+            "target": "RightShoulder",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -0.4363,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                }
+            ]
+        },
+        
+        {
+            "origin": "upperarm_r",
+            "target": "RightArm",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "lowerarm_r",
+            "target": "RightForeArm",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": "upperleg_r",
+            "target": "RightUpLeg",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "lowerleg_r",
+            "target": "RightLeg",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "foot_r",
+            "target": "RightFoot",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0.5236,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "ball_r",
+            "target": "RightToeBase",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "foot_end_r",
+            "target": "RightToe_End",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "hand_l",
+            "target": "LeftHand",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 1.57,
+                            "yaw": 1.57
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "origin": {
+                "name": "thumb",
+                "suffixes": ["_01_l", "_02_l", "_03_l", "_end_l"]
+            },
+            "target": {
+                "name": "LeftHandThumb",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 3.14,
+                            "yaw": 1.57
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "index",
+                "suffixes": ["_01_l", "_02_l", "_03_l", "_end_l"]
+            },
+            "target": {
+                "name": "LeftHandIndex",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "middle",
+                "suffixes": ["_01_l", "_02_l", "_03_l", "_end_l"]
+            },
+            "target": {
+                "name": "LeftHandMiddle",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "ring",
+                "suffixes": ["_01_l", "_02_l", "_03_l", "_end_l"]
+            },
+            "target": {
+                "name": "LeftHandRing",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "pinky",
+                "suffixes": ["_01_l", "_02_l", "_03_l", "_end_l"]
+            },
+            "target": {
+                "name": "LeftHandPinky",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": "hand_r",
+            "target": "RightHand",
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "thumb",
+                "suffixes": ["_01_r", "_02_r", "_03_r", "_end_r"]
+            },
+            "target": {
+                "name": "RightHandThumb",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -0.5236,
+                            "pitch": 0,
+                            "yaw": -1.0472
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": 0,
+                            "pitch": 0,
+                            "yaw": -1.57
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "index",
+                "suffixes": ["_01_r", "_02_r", "_03_r", "_end_r"]
+            },
+            "target": {
+                "name": "RightHandIndex",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "middle",
+                "suffixes": ["_01_r", "_02_r", "_03_r", "_end_r"]
+            },
+            "target": {
+                "name": "RightHandMiddle",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "ring",
+                "suffixes": ["_01_r", "_02_r", "_03_r", "_end_r"]
+            },
+            "target": {
+                "name": "RightHandRing",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "origin": {
+                "name": "pinky",
+                "suffixes": ["_01_r", "_02_r", "_03_r", "_end_r"]
+            },
+            "target": {
+                "name": "RightHandPinky",
+                "suffixes": ["1", "2", "3", "4"]
+            },
+            "offset": [
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                },
+                {
+                    "orientation":{
+                        "codification": "rpy",
+                        "values":
+                        {
+                            "roll": -1.57,
+                            "pitch": 1.57,
+                            "yaw": 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
